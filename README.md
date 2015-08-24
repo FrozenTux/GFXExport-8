@@ -4,12 +4,14 @@ This is a simple command line script that extracts the sprite data from a [PICO-
 
 Note that at the moment, the reverse operation (importing graphics from a png into a .p8) is not supported. Check out [Terry Cavanagh's compiler](https://twitter.com/terrycavanagh/status/634123273299619840) which is able to do that. I might add this feature in the near future if there is need for it.
 
+This scripts uses and redistributes PyPNG (https://github.com/drj11/pypng), licensed under the MIT license (see png.py for details)
+
 ## Installation
 This script should support Windows, Linux and Mac (not tested)
 
 You will need Python (any recent version, 2 or 3, should be fine). It is preinstalled under Mac and Linux. For Windows, download it [on python.org](https://www.python.org/downloads/).
 
-Simply download the release archive and extract both .py files into a folder easily accessible by command line.
+Simply download an archive or clone the repo, and extract `gfxextract.py` AND `png.py` into a folder easily accessible by command line.
 
 ## Usage
 **This script supports only .p8 cartridges, not .p8.png !!**
