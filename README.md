@@ -2,6 +2,8 @@
 
 This is a simple command line script that extracts the sprite data from a [PICO-8](http://www.lexaloffle.com/pico-8.php) cartridge into a png file.
 
+Note that at the moment, the reverse operation (importing graphics from a png into a .p8) is not supported. Check out [Terry Cavanagh's compiler](https://twitter.com/terrycavanagh/status/634123273299619840) which is able to do that. I might add this feature in the near future if there is need for it.
+
 ## Installation
 This script should support Windows, Linux and Mac (not tested)
 
